@@ -11,7 +11,6 @@ import org.gradle.api.tasks.compile.JavaCompile
 import com.android.build.gradle.BaseExtension
 import com.android.build.gradle.AppPlugin
 import com.android.build.gradle.LibraryPlugin
-import com.android.build.gradle.api.BaseVariant
 
 /**
  * @author Cheng Wei

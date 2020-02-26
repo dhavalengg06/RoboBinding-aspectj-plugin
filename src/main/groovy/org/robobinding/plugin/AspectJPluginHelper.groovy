@@ -34,7 +34,7 @@ class AspectJPluginHelper {
 		String variantName = taskVariant.capitalize()
 		String taskName = "compile${variantName}AspectJ"
 		
-		def aspectJCompile = project.tasks.create(name: taskName, , type: AspectJCompile) {
+		def aspectJCompile = project.tasks.create(name: taskName, type: AspectJCompile) {
 			description = 'Compiles source code with AspectJ Compiler';
 			group = 'build'
 			
