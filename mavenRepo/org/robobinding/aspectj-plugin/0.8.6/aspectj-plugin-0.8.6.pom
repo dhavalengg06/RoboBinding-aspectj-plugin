@@ -8,6 +8,12 @@
   <dependencies>
     <dependency>
       <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle-core</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
       <artifactId>gradle</artifactId>
       <version>1.+</version>
       <scope>compile</scope>
@@ -15,7 +21,13 @@
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjtools</artifactId>
-      <version>1.8.9</version>
+      <version>1.9.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>r05</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
